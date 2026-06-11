@@ -46,9 +46,9 @@ finalproject_group5/
 ├── README.md
 ├── requirements.txt
 ├── docs/
-│   ├── 1132_DS-FP_group5.pptx          # 期末報告投影片（06.10 前上傳）
-│   ├── poster_group5.pdf                # Innofest A1 海報
-│   └── meeting_records/                 # 會議記錄
+│   ├── 1132_DS-FP_group5.pptx
+│   ├── poster_group5.pdf
+│   └── meeting_records/
 ├── data/
 │   ├── README_data.md                   # 資料取得說明
 │   └── output/                          # 清洗後可放入 repo 的中間檔
@@ -69,9 +69,8 @@ finalproject_group5/
 ```
 
 ### docs
-- `1132_DS-FP_group5.pptx`：期末報告投影片，含研究動機、資料來源與前處理、市場概況、建模方法、模型效能與特徵、低估物件與熱銷分析、線上 Demo、結論。截止日 **06.10**。
-- `poster_group5.pdf`：A1 直式海報，2026 NCCU Innofest（6/01）展示版本。
-- `meeting_records/`：兩次小組會議記錄（2026/04/30、2026/05/14）。
+- `1132_DS-FP_group5.pptx`：期末報告投影片
+- `poster_group5.pdf`：A1 直式海報，2026 NCCU Innofest 展示版本
 
 ### data
 
