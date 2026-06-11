@@ -1,0 +1,10 @@
+﻿Model Type,Feature Strategy,MSE (2026Q1 Test),R-squared,Notes
+Random Forest,+ size + Efficiency_Ratio (OHE版),0.050239,0.5505,樹狀模型對照
+LightGBM,+ size + Efficiency_Ratio,0.050301,0.55,雙重特徵 (最佳表現)
+LightGBM,+ size,0.052424,0.531,加入總坪數
+LightGBM,+ Efficiency_Ratio,0.05428,0.5144,加入得房率
+XGBoost,+ size + Efficiency_Ratio (OHE版),0.054325,0.514,梯度提升對照
+LightGBM,+ main,0.054821,0.5095,純主建物坪數
+LightGBM,Model A (無坪數),0.060222,0.4612,基準特徵
+Ridge (Linear),Basic Features (OHE dist),0.104705,0.0559,線性對照組
+Null Model,Basic Features (OHE dist),0.110927,-0.0002,Baseline (猜平均)
